@@ -2,6 +2,8 @@
 
 Ejercicio realizado para **Desafío Latam**.
 
+![Screenshot_1](https://github.com/donpelusa/desafio-05-sistemaMensajeria/assets/92953141/27b9b978-f2cf-4312-b268-77518c7b6a2a)
+
 ## Descripción
 
 "La empresa Contact Me SPA está en proceso de maquetación de una de sus pantallas más
