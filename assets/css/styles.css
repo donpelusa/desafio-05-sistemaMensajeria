@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
+
+:root {
+    --white: #FFF;
+    --platinum: #E8EBE4;
+    --gray: #BEC1BB;
+    --blue-bell: #A491D2;
+    --soap: #CDC3E6;
+    --pale-lavender: #D3DCFF;
+    --dark-jungle: #1B1F21;
+    --outer-space: #444749;
+    --old-silver: #828485;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: regular;
+    font-variation-settings: "wdth" 100;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    background: var(--blue-bell);
+    padding: 1rem 2rem;
+    width: 15%;
+    height: 100vh;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 1rem;
+}
+
+nav ul li {
+    margin-bottom: 1rem;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+nav .menu img {
+    width: 20%;
+    height: 20%;
+}
+
+section {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.chat-area {}
+
+.chat-title {
+    font-size: large;
+}
+
+.chat-area img {
+    width: 200px;
+    height: 200px;
+
+}

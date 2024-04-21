@@ -38,7 +38,7 @@ centrado y posicionado con Flex. (2 Puntos)
 
 ## Autor
 
-Alvaro Pelusa™ Cortés
+Alvaro **Pelusa™** Cortés
 
 ## Historial de Versiones
 
@@ -47,4 +47,4 @@ Alvaro Pelusa™ Cortés
 
 ## Licencia
 
-Proyecto de propiedad de **Alvaro "Pelusa" Cortés** para **Desafío Latam**
+Proyecto de propiedad de **Alvaro Pelusa™ Cortés** para **Desafío Latam**
