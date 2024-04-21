@@ -30,10 +30,15 @@ centrado y posicionado con Flex. (2 Puntos)
 ### Dependencias
 
 * CSS
+* Font Awesome
 
 ### Estructura
 
-* En proceso
+* Nav Vertical con 3 subsecciones:
+  * menu
+  * nav-newchat
+  * chat-box
+* Section
 
 
 ## Autor
@@ -43,7 +48,7 @@ Alvaro **Pelusa™** Cortés
 ## Historial de Versiones
 
 * 0.1
-    * Primer release: En trabajo
+    * Primer release: Liberado sitio. Se integra display flexbox en CSS para cumplir objetivo de desafio
 
 ## Licencia
 
