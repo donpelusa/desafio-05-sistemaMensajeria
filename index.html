@@ -20,12 +20,12 @@
     <!-- Link to Stylesheets -->
     <link rel="stylesheet" href="./assets/css/styles.css">
 
-    <!-- Link to Favicon -->
-    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon"> <!-- Para navegadores tradicionales -->
-    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png"> <!-- Para dispositivos Apple -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png"> <!-- Favicon 32x32 -->
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png"> <!-- Favicon 16x16 -->
-    <link rel="manifest" href="./assets/site.webmanifest"> <!-- Para Progressive Web Apps -->
+    <!-- Links to Icons -->
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
     <link rel="icon" type="image/png" sizes="192x192" href="./assets/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="./assets/android-chrome-512x512.png">
 
@@ -41,8 +41,10 @@
         <div class="menu">
             <div class="user-info">
                 <img src="./assets/img/maria.jpg" alt="Avatar">
-                <h3>Maria</h3>
-                <p>Activa ahora</p>>
+                <div class="user-info-text">
+                    <h3>Maria</h3>
+                    <p>Activa ahora</p>
+                </div>
             </div>
             <div class="menu-buttons">
                 <span><i class="far fa-comment-alt"></i></span>
@@ -51,66 +53,64 @@
         </div>
 
         <div class="nav-newchat">
-            <div class="btn-nuevo-chat">
-                <button> Nuevo Chat </button>
-            </div>
+            <button> Nuevo Chat </button>
         </div>
 
         <div class="chat-box">
             <ul>
                 <li class="chat">
-                    <img src="./assets/img/user (1).jpg" alt="contact-avatar">
-                    <div chat-info>
-                        <p>Juanita</p>
+                    <img src="./assets/img/juanita.jpg" alt="contact-avatar">
+                    <div class="chat-info">
+                        <p class="chat-user">Juanita</p>
                         <p>At vero eos et accusa</p>
                     </div>
                 </li>
                 <li class="chat">
-                    <img src="./assets/img/user (2).jpg" alt="contact-avatar">
-                    <div chat-info>
-                        <p>Alberto</p>
+                    <img src="./assets/img/alberto.jpg" alt="contact-avatar">
+                    <div class="chat-info">
+                        <p class="chat-user">Alberto</p>
                         <p>blanditiis praesentium</p>
                     </div>
                 </li>
                 <li class="chat">
-                    <img src="./assets/img/user (3).jpg" alt="contact-avatar">
-                    <div chat-info>
-                        <p>Ignacio</p>
+                    <img src="./assets/img/ignacio.jpg" alt="contact-avatar">
+                    <div class="chat-info">
+                        <p class="chat-user">Ignacio</p>
                         <p>officiis debitis aut</p>
                     </div>
                 </li>
                 <li class="chat">
-                    <img src="./assets/img/user (4).jpg" alt="contact-avatar">
-                    <div chat-info>
-                        <p>Cristian</p>
+                    <img src="./assets/img/cristian.jpg" alt="contact-avatar">
+                    <div class="chat-info">
+                        <p class="chat-user">Cristian</p>
                         <p>Nam libero tempore</p>
                     </div>
                 </li>
                 <li class="chat">
-                    <img src="./assets/img/user (5).jpg" alt="contact-avatar">
-                    <div chat-info>
-                        <p>María José</p>
+                    <img src="./assets/img/mariajose.jpg" alt="contact-avatar">
+                    <div class="chat-info">
+                        <p class="chat-user">María José</p>
                         <p>impedit quo minus id</p>
                     </div>
                 </li>
                 <li class="chat">
-                    <img src="./assets/img/user (6).jpg" alt="contact-avatar">
-                    <div chat-info>
-                        <p>Gonzalo</p>
+                    <img src="./assets/img/gonzalo.jpg" alt="contact-avatar">
+                    <div class="chat-info">
+                        <p class="chat-user">Gonzalo</p>
                         <p>At vero eos et accusa</p>
                     </div>
                 </li>
                 <li class="chat">
-                    <img src="./assets/img/user (7).jpg" alt="contact-avatar">
+                    <img src="./assets/img/juanpablo.jpg" alt="contact-avatar">
                     <div class="chat-info">
-                        <p>Juan Pablo</p>
+                        <p class="chat-user">Juan Pablo</p>
                         <p>necessitatibus saepe</p>
                     </div>
                 </li>
                 <li class="chat">
-                    <img src="./assets/img/user (8).jpg" alt="contact-avatar">
+                    <img src="./assets/img/magdalena.jpg" alt="contact-avatar">
                     <div class="chat-info">
-                        <p>Magdalena</p>
+                        <p class="chat-user">Magdalena</p>
                         <p>ut et voluptates</p>
                     </div>
                 </li>
@@ -123,7 +123,7 @@
         <div class="chat-area">
             <img src="./assets/img/hand.png" alt="hand">
             <div class="chat-text">
-                <h1>Comienza el Nertworking</h1>
+                <h1>Comienza el Networking</h1>
                 <p>Presiona el botón <strong>"Nuevo chat"</strong> para comenzar a crear nuevas redes de contacto
                     para tu empresa o emprendimiento.</p>
             </div>
